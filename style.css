@@ -76,6 +76,7 @@ nav img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 /*SEARCH BOX*/
@@ -176,5 +177,14 @@ footer div {
 @media (max-width: 540px) {
     #search-box-div {
         width: calc(100vw - 60px);
+    }
+}
+
+/*Logo*/
+
+@media (max-height: 550px) {
+    #google-logo {
+        height: 70px;
+        width: auto;
     }
 }
