@@ -64,3 +64,30 @@ nav img {
 .navbar-button:hover{
     box-shadow: 0 0.5px 1px #727272;
 }
+
+/*FOOTER STYLE*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 0 30px;
+    border-top: solid 1px #dadce0;
+}
+
+footer div {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-link {
+    color: #727272;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
