@@ -9,7 +9,7 @@ body {
     background-color: #ffffff;
 }
 
-/*NAVBAR STYLE*/
+/*NAVBAR*/
 
 nav {
     display: flex;
@@ -65,7 +65,9 @@ nav img {
     box-shadow: 0 0.5px 1px #727272;
 }
 
-/*SEARCH BOX AREA*/
+/*MAIN*/
+
+/*SEARCH BOX*/
 
 #search-box-div {
     display: flex;
@@ -94,7 +96,29 @@ nav img {
     font-size: 16px;
 }
 
-/*FOOTER STYLE*/
+/*SEARCH BUTTONS*/
+
+#search-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.search-button{
+    background-color: #f8f9fa;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.search-button:hover{
+    box-shadow: 0 0 2px #727272;
+}
+
+/*FOOTER*/
 
 footer {
     display: flex;
