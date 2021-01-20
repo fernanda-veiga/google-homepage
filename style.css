@@ -6,14 +6,61 @@
 
 body {
     font-family: "Liberation Sans";
+    background-color: #ffffff;
 }
+
+/*NAVBAR STYLE*/
 
 nav {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav a {
+    margin: 0 10px;
     font-size: 13px;
 }
+
+/*Navbar links*/
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+/*Navbar icon*/
 
 nav img {
     width: 30px;
     height: auto;
+}
+
+.navbar-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-icon:hover {
+    filter: brightness(0%);
+}
+
+/*Navbar button*/
+
+.navbar-button{
+    background-color: #4485f5;
+    padding: 8px 15px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-button:hover{
+    box-shadow: 0 0.5px 1px #727272;
 }
