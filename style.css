@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Liberation Sans";
+}
+
+nav {
+    display: flex;
+    font-size: 13px;
+}
+
+nav img {
+    width: 30px;
+    height: auto;
+}
