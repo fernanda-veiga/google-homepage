@@ -1,0 +1,1 @@
+A project called "Google Homepage" from The Odin Project Foundations learning path. This project has the objetive to solidify the knowledge of HTML and CSS by recreating the Google Search homepage layout.
