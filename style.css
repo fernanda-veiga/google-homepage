@@ -7,6 +7,10 @@
 body {
     font-family: "Liberation Sans";
     background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*NAVBAR*/
@@ -70,6 +74,7 @@ nav img {
 #main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
