@@ -65,6 +65,35 @@ nav img {
     box-shadow: 0 0.5px 1px #727272;
 }
 
+/*SEARCH BOX AREA*/
+
+#search-box-div {
+    display: flex;
+    align-items: center;
+    border: solid 1px #dadce0;
+    border-radius: 90px;
+    width: 480px;
+    height: 45px;
+    padding: 0 15px;
+}
+
+#search-box-div:hover {
+    box-shadow: 0 0 2px #727272;
+}
+
+#search-box-div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+#search-box {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
 /*FOOTER STYLE*/
 
 footer {
