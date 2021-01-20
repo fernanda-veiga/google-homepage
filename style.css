@@ -156,3 +156,25 @@ footer div {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+/*RESPONSIVE DESIGN*/
+
+/*Footer*/
+
+@media (max-width: 825px) {
+    footer {
+        display: block;
+    }
+
+    footer div {
+        justify-content: center;
+    }
+}
+
+/*Search bar*/
+
+@media (max-width: 540px) {
+    #search-box-div {
+        width: calc(100vw - 60px);
+    }
+}
